@@ -1,7 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-// Gunakan BOT_TOKEN dari env saat deploy, atau pakai placeholder saat lokal
-const token = process.env.BOT_TOKEN
+const token = process.env.BOT_TOKEN // Ubah process.env.BOT_TOKEN jadi API-KEY dari telegram
 const prefix = ".";
 const options = {
     polling: true
