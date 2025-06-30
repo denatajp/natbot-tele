@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = "API-KEY"; // API KEY dari telegram
+const token = "7871276927:AAH77iy2jGJ-fMp7vAPtJZp-pbpS5sTDwDk"; // API KEY dari telegram
 const prefix = ".";
 const options = {
     polling: true
